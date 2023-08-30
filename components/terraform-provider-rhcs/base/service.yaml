@@ -11,7 +11,8 @@ metadata:
   name: terraform-provider-rhcs
 spec:
   ports:
-  - port: 8081
+  - name: "8081"
+    port: 8081
     targetPort: 8081
   selector:
     app.kubernetes.io/instance: terraform-provider-rhcs
