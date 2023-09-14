@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: terraform-rhcs-rosa-test
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/ebelarte-tenant/terraform-provider-rhcs/terraform-rhcs-rosa-test@sha256:0287f74d19e3000878fc35abf39f4912bb19cef86db933a3c4d64db4e03a1411
+        name: container-image
+        resources: {}
+status: {}
