@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ebelarte-tenant/terraform-provider-rhcs/terraform-provider-rhcs@sha256:b45efc86ac22301dfb6587f0ae9adf16b2037ecea28223e54a11a01658124018
+      - image: quay.io/redhat-user-workloads/ebelarte-tenant/terraform-provider-rhcs/terraform-provider-rhcs@sha256:dd0d7f94d83bb9f10fdbe086e8d1c4dcf8c5db4d98a39a0d9b43161afe381c1d
         name: my-go
         resources: {}
 status: {}
