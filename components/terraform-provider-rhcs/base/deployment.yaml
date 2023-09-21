@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: terraform-provider-rhcs
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ebelarte-tenant/terraform-provider-rhcs/terraform-provider-rhcs@sha256:6c9c5d336101626ffb0c3229ab8a38e483ffba92a0ce7c7910becd524976cd9e
+      - image: quay.io/redhat-user-workloads/ebelarte-tenant/terraform-provider-rhcs/terraform-provider-rhcs@sha256:dd0d7f94d83bb9f10fdbe086e8d1c4dcf8c5db4d98a39a0d9b43161afe381c1d
         name: my-go
         ports:
         - containerPort: 8081
